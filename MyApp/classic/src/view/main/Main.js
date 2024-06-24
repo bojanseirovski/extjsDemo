@@ -79,11 +79,5 @@ Ext.define('MyApp.view.main.Main', {
         items: [{
             xtype: 'productlist'
         }]
-    },{
-        title: 'Settings',
-        iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
     }]
 });
