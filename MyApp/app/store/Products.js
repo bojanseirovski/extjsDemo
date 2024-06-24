@@ -9,7 +9,7 @@ Ext.define('MyApp.store.Products', {
     proxy: {
         enablePaging: true,
         type: 'ajax',
-        url: 'http://localhost:1234/index.php',
+        url: 'https://ajax.seirovski.net/index.php',
         useDefaultXhrHeader: false,
         reader: {
             type: 'xml',

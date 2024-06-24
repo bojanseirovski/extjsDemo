@@ -1,370 +1,3 @@
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-operator-empty:before {
-    content: "\e904";
-    font: 12px/1 ExtJS;
-    color: #919191;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-operator-exists:before {
-    content: "\e905";
-    font: 12px/1 ExtJS;
-    color: #919191;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-operator-fn:before {
-    content: "\e90a";
-    font: 12px/1 ExtJS;
-    color: #919191;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/filters/Base.scss:2 */
-.x-grid-filter-base .x-form-trigger-wrap-default {
-    border-width: 0 1px 0 0;
-    border-style: solid;
-    border-color: #d0d0d0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/filters/None.scss:1 */
-.x-grid-filter-none {
-    background-color: #f6f6f6;
-    min-height: 32px;
-    border-width: 0 1px 0 0;
-    border-style: solid;
-    border-color: #d0d0d0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/FilterBar.scss:2 */
-.x-grid-filterbar .x-form-text {
-    padding: 3px;
-    font-size: 11px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/grid/plugin/filterbar/FilterBar.scss:8 */
-.x-grid-filterbar-filtered-column {
-    font-style: italic;
-    font-weight: 600;
-    text-decoration: underline;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/grid/selection/SpreadsheetModel.scss:1 */
-.x-ssm-row-numberer-hd {
-    cursor: se-resize!important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/grid/selection/SpreadsheetModel.scss:6 */
-.x-ssm-row-numberer-cell {
-    cursor: e-resize;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/grid/selection/SpreadsheetModel.scss:11 */
-.x-ssm-column-select .x-column-header {
-    cursor: s-resize;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/grid/selection/SpreadsheetModel.scss:16 */
-.x-ssm-extender-drag-handle {
-    height: 7px;
-    width: 7px;
-    background-color: #5fa2dd;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/grid/selection/SpreadsheetModel.scss:22 */
-.x-ssm-extender-mask {
-    border: 1px dotted #5fa2dd;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:1 */
-.x-accordion-layout-ct {
-    background-color: #fff;
-    padding: 5px 5px 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:6 */
-.x-accordion-hd .x-panel-header-title {
-    color: #404040;
-    font-weight: 300;
-    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
-    text-transform: none;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:13 */
-.x-keyboard-mode .x-accordion-hd .x-panel-header-title.x-title-focus {
-    outline: 1px solid #5fa2dd;
-    outline-offset: 2px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:63 */
-.x-ie .x-keyboard-mode .x-accordion-hd .x-panel-header-title.x-title-focus,
-.x-ie10p .x-keyboard-mode .x-accordion-hd .x-panel-header-title.x-title-focus,
-.x-edge .x-keyboard-mode .x-accordion-hd .x-panel-header-title.x-title-focus {
-    outline: none;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:39 */
-.x-ie .x-keyboard-mode .x-accordion-hd .x-panel-header-title.x-title-focus:after,
-.x-ie10p .x-keyboard-mode .x-accordion-hd .x-panel-header-title.x-title-focus:after,
-.x-edge .x-keyboard-mode .x-accordion-hd .x-panel-header-title.x-title-focus:after {
-    position: absolute;
-    content: ' ';
-    top: -3px;
-    right: -3px;
-    bottom: -3px;
-    left: -3px;
-    border: 1px solid #5fa2dd;
-    pointer-events: none;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:34 */
-.x-accordion-item {
-    margin: 0 0 5px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:37 */
-.x-accordion-item .x-accordion-hd {
-    background: #ececec;
-    border-width: 0;
-    border-color: #5fa2dd;
-    padding: 12px 10px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:45 */
-.x-accordion-item .x-accordion-hd-over {
-    background-color: #f6f6f6;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:48 */
-.x-accordion-item .x-accordion-hd-over .x-tool-tool-el {
-    background-color: #f6f6f6;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:54 */
-.x-accordion-item .x-accordion-hd-sibling-expanded {
-    border-top-color: #5fa2dd;
-    border-top-width: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:59 */
-.x-accordion-item .x-accordion-hd-last-collapsed {
-    border-bottom-color: #ececec;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:63 */
-.x-accordion-item .x-accordion-body {
-    border-width: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:72 */
-.x-accordion-hd .x-tool-tool-el {
-    background-color: #ececec;
-    color: #5fa2dd;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:77 */
-.x-accordion-hd .x-tool-img {
-    background-image: url(images/tools/tool-sprites-dark.png);
-    background-image: none;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:87 */
-.x-accordion-hd .x-tool-collapse-top,
-.x-accordion-hd .x-tool-collapse-bottom {
-    font: 16px/1 'Font Awesome 5 Free';
-    background-image: none;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-accordion-hd .x-tool-collapse-top:before,
-.x-accordion-hd .x-tool-collapse-bottom:before {
-    content: '\f068';
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:106 */
-.x-accordion-hd .x-tool-expand-top,
-.x-accordion-hd .x-tool-expand-bottom {
-    font: 16px/1 'Font Awesome 5 Free';
-    background-image: none;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-accordion-hd .x-tool-expand-top:before,
-.x-accordion-hd .x-tool-expand-bottom:before {
-    content: '\f067';
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Accordion.scss:126 */
-.x-keyboard-mode .x-accordion-hd .x-tool-focus {
-    outline: 1px solid #5fa2dd;
-    outline-offset: 2px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:63 */
-.x-ie .x-keyboard-mode .x-accordion-hd .x-tool-focus,
-.x-ie10p .x-keyboard-mode .x-accordion-hd .x-tool-focus,
-.x-edge .x-keyboard-mode .x-accordion-hd .x-tool-focus {
-    outline: none;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:39 */
-.x-ie .x-keyboard-mode .x-accordion-hd .x-tool-focus:after,
-.x-ie10p .x-keyboard-mode .x-accordion-hd .x-tool-focus:after,
-.x-edge .x-keyboard-mode .x-accordion-hd .x-tool-focus:after {
-    position: absolute;
-    content: ' ';
-    top: -3px;
-    right: -3px;
-    bottom: -3px;
-    left: -3px;
-    border: 1px solid #5fa2dd;
-    pointer-events: none;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Border.scss:5 */
-body.x-border-layout-ct,
-div.x-border-layout-ct {
-    background-color: #ececec;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/layout/container/Form.scss:1 */
-.x-form-layout-wrap {
-    border-spacing: 10px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:1 */
-.x-resizable-handle {
-    position: absolute;
-    z-index: 100;
-    font-size: 1px;
-    line-height: 10px;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    opacity: 0;
-    background-color: #ececec;
-    color: #919191;
-    text-align: center;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:20 */
-.x-collapsed .x-resizable-handle {
-    display: none;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:24 */
-.x-resizable-handle-southeast {
-    cursor: se-resize;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:27 */
-.x-resizable-handle-southeast:before {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:34 */
-.x-resizable-handle-northwest {
-    cursor: nw-resize;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:37 */
-.x-resizable-handle-northwest:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:44 */
-.x-resizable-handle-northeast {
-    cursor: ne-resize;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:47 */
-.x-resizable-handle-northeast:before {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:54 */
-.x-resizable-handle-southwest {
-    cursor: sw-resize;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:57 */
-.x-resizable-handle-southwest:before {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:68 */
-.x-resizable-handle-east:before,
-.x-resizable-handle-west:before {
-    display: block;
-    position: absolute;
-    top: 50%;
-    margin-top: -0.5em;
-    width: 100%;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:78 */
-.x-resizable-handle-east {
-    cursor: e-resize;
-    width: 10px;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:86 */
-.x-resizable-handle-south {
-    cursor: s-resize;
-    height: 10px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:94 */
-.x-resizable-handle-west {
-    cursor: w-resize;
-    width: 10px;
-    left: 0;
-    top: 0;
-    bottom: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:102 */
-.x-resizable-handle-north {
-    cursor: n-resize;
-    height: 10px;
-    left: 0;
-    right: 0;
-    top: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:110 */
-.x-resizable-handle-southeast {
-    width: 10px;
-    height: 10px;
-    right: 0;
-    bottom: 0;
-    z-index: 101;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:118 */
-.x-resizable-handle-northwest {
-    width: 10px;
-    height: 10px;
-    left: 0;
-    top: 0;
-    z-index: 101;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:126 */
-.x-resizable-handle-northeast {
-    width: 10px;
-    height: 10px;
-    right: 0;
-    top: 0;
-    z-index: 101;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:134 */
-.x-resizable-handle-southwest {
-    width: 10px;
-    height: 10px;
-    left: 0;
-    bottom: 0;
-    z-index: 101;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:145 */
-.x-tablet .x-resizable-handle-north,
-.x-tablet .x-resizable-handle-south {
-    height: 20px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:149 */
-.x-tablet .x-resizable-handle-east,
-.x-tablet .x-resizable-handle-west {
-    width: 20px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:153 */
-.x-tablet .x-resizable-handle-northwest,
-.x-tablet .x-resizable-handle-northeast,
-.x-tablet .x-resizable-handle-southwest,
-.x-tablet .x-resizable-handle-southeast {
-    width: 20px;
-    height: 20px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:163 */
-.x-window .x-window-handle {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    opacity: 0;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:167 */
-.x-window-collapsed .x-window-handle {
-    display: none;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:172 */
-.x-resizable-proxy {
-    border: 1px dashed #3b5a82;
-    position: absolute;
-    overflow: hidden;
-    z-index: 50000;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:180 */
-.x-resizable-handle-over,
-.x-resizable-pinned .x-resizable-handle {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    opacity: 1;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:186 */
 .x-resizable-handle-east-over,
 .x-resizable-handle-west-over,
@@ -679,12 +312,6 @@ div.x-border-layout-ct {
 .x-tab-default-top-mc {
     padding: 8px 10px 8px 10px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-default-bottom {
     -moz-border-radius-topleft: 0;
@@ -779,12 +406,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-default-bottom-mc {
     padding: 8px 10px 8px 10px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-default-left {
@@ -881,12 +502,6 @@ div.x-border-layout-ct {
 .x-tab-default-left-mc {
     padding: 8px 10px 8px 10px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-default-right {
     -moz-border-radius-topleft: 0;
@@ -981,12 +596,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-default-right-mc {
     padding: 8px 10px 8px 10px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2672 */
 .x-tab-default {
@@ -1905,150 +1514,6 @@ div.x-border-layout-ct {
     padding-right: 0px;
     padding-left: 16px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-corners.gif), sides:url(images/tab/tab-default-top-focus-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-corners.gif), sides:url(images/tab/tab-default-right-focus-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-corners.gif), sides:url(images/tab/tab-default-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-corners.gif), sides:url(images/tab/tab-default-left-focus-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-over-corners.gif), sides:url(images/tab/tab-default-top-over-sides.gif), frame-bg:url(images/tab/tab-default-top-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-over-corners.gif), sides:url(images/tab/tab-default-right-over-sides.gif), frame-bg:url(images/tab/tab-default-right-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-over-corners.gif), sides:url(images/tab/tab-default-bottom-over-sides.gif), frame-bg:url(images/tab/tab-default-bottom-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-over-corners.gif), sides:url(images/tab/tab-default-left-over-sides.gif), frame-bg:url(images/tab/tab-default-left-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-active-corners.gif), sides:url(images/tab/tab-default-top-active-sides.gif), frame-bg:url(images/tab/tab-default-top-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-active-corners.gif), sides:url(images/tab/tab-default-right-active-sides.gif), frame-bg:url(images/tab/tab-default-right-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-active-corners.gif), sides:url(images/tab/tab-default-bottom-active-sides.gif), frame-bg:url(images/tab/tab-default-bottom-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-active-corners.gif), sides:url(images/tab/tab-default-left-active-sides.gif), frame-bg:url(images/tab/tab-default-left-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-over-corners.gif), sides:url(images/tab/tab-default-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-over-corners.gif), sides:url(images/tab/tab-default-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-over-corners.gif), sides:url(images/tab/tab-default-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-over-corners.gif), sides:url(images/tab/tab-default-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-active-corners.gif), sides:url(images/tab/tab-default-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-active-corners.gif), sides:url(images/tab/tab-default-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-active-corners.gif), sides:url(images/tab/tab-default-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-active-corners.gif), sides:url(images/tab/tab-default-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-disabled-corners.gif), sides:url(images/tab/tab-default-top-disabled-sides.gif), frame-bg:url(images/tab/tab-default-top-disabled-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-disabled-corners.gif), sides:url(images/tab/tab-default-right-disabled-sides.gif), frame-bg:url(images/tab/tab-default-right-disabled-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-disabled-corners.gif), sides:url(images/tab/tab-default-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-default-bottom-disabled-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-disabled-corners.gif), sides:url(images/tab/tab-default-left-disabled-sides.gif), frame-bg:url(images/tab/tab-default-left-disabled-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss:389 */
 .x-tab-bar-default {
     background-color: #5fa2dd;
@@ -2271,30 +1736,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss:807 */
 .x-box-scroller-tab-bar-default .x-ie8 .x-box-scroller-plain {
     background-color: #fff;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:406 */
 .x-breadcrumb-btn-default {
@@ -2753,12 +2194,6 @@ div.x-border-layout-ct {
 .x-btn-plain-toolbar-small-mc {
     padding: 7px 7px 7px 7px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:1px 1px 1px 1px" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
 .x-btn-plain-toolbar-small {
     border-color: transparent;
@@ -3203,42 +2638,6 @@ div.x-border-layout-ct {
     border-width: 1px;
     border-color: #5fa2dd;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-over-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-over-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-pressed-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-pressed-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-disabled-sides.gif)" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-small-cell > .x-grid-cell-inner {
     padding-top: 0px;
@@ -3335,12 +2734,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-btn-plain-toolbar-medium-mc {
     padding: 8px 8px 8px 8px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:1px 1px 1px 1px" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
 .x-btn-plain-toolbar-medium {
@@ -3786,42 +3179,6 @@ div.x-border-layout-ct {
     border-width: 1px;
     border-color: #5fa2dd;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-over-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-over-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-pressed-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-pressed-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-disabled-sides.gif)" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-medium-cell > .x-grid-cell-inner {
     padding-top: 0;
@@ -3918,12 +3275,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-btn-plain-toolbar-large-mc {
     padding: 9px 9px 9px 9px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:1px 1px 1px 1px" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
 .x-btn-plain-toolbar-large {
@@ -4369,42 +3720,6 @@ div.x-border-layout-ct {
     border-width: 1px;
     border-color: #5fa2dd;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-over-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-over-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-pressed-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-pressed-sides.gif)" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-disabled-sides.gif)" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-large-cell > .x-grid-cell-inner {
     padding-top: 0;
@@ -4638,30 +3953,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1300 */
 .x-panel .x-panel-header-light-collapsed-border-left {
     border-right-width: 1px !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1336 */
 .x-panel-header-light-horizontal .x-tool-after-title {
@@ -5128,12 +4419,6 @@ div.x-border-layout-ct {
 .x-panel-light-framed-mc {
     padding: 0px 0px 0px 0px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-light-framed:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel/panel-light-framed-corners.gif), sides:url(images/panel/panel-light-framed-sides.gif)" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-top {
     -moz-border-radius-topleft: 0;
@@ -5245,12 +4530,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-panel-header-light-framed-top-mc {
     padding: 10px 14px 10px 14px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 0 2px, corners:url(images/panel-header/panel-header-light-framed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-top-sides.gif)" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-right {
@@ -5378,12 +4657,6 @@ div.x-border-layout-ct {
 .x-panel-header-light-framed-right-mc {
     padding: 14px 10px 14px 10px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 0, corners:url(images/panel-header/panel-header-light-framed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-right-sides.gif)" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-bottom {
     -moz-border-radius-topleft: 0;
@@ -5495,12 +4768,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-panel-header-light-framed-bottom-mc {
     padding: 10px 14px 10px 14px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-bottom-sides.gif)" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-left {
@@ -5628,12 +4895,6 @@ div.x-border-layout-ct {
 .x-panel-header-light-framed-left-mc {
     padding: 14px 10px 14px 10px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 0 2px 2px, corners:url(images/panel-header/panel-header-light-framed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-left-sides.gif)" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-top {
     -moz-border-radius-topleft: 0;
@@ -5745,12 +5006,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-panel-header-light-framed-collapsed-top-mc {
     padding: 10px 14px 10px 14px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-top-sides.gif)" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-right {
@@ -5878,12 +5133,6 @@ div.x-border-layout-ct {
 .x-panel-header-light-framed-collapsed-right-mc {
     padding: 14px 10px 14px 10px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-right-sides.gif)" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-bottom {
     -moz-border-radius-topleft: 0;
@@ -5995,12 +5244,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-panel-header-light-framed-collapsed-bottom-mc {
     padding: 10px 14px 10px 14px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-bottom-sides.gif)" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-left {
@@ -6127,12 +5370,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-panel-header-light-framed-collapsed-left-mc {
     padding: 14px 10px 14px 10px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-left-sides.gif)" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1188 */
 .x-panel .x-panel-header-light-framed-top {
@@ -12947,12 +12184,6 @@ div.x-border-layout-ct {
 .x-tab-navigation-top-mc {
     padding: 24px 24px 24px 24px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-bottom {
     -moz-border-radius-topleft: 0;
@@ -13047,12 +12278,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-navigation-bottom-mc {
     padding: 24px 24px 24px 24px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-left {
@@ -13149,12 +12374,6 @@ div.x-border-layout-ct {
 .x-tab-navigation-left-mc {
     padding: 24px 24px 24px 24px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-right {
     -moz-border-radius-topleft: 0;
@@ -13249,12 +12468,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-navigation-right-mc {
     padding: 24px 24px 24px 24px;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2672 */
 .x-tab-navigation {
@@ -14177,150 +13390,6 @@ div.x-border-layout-ct {
     padding-right: 0px;
     padding-left: 16px;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-corners.gif), sides:url(images/tab/tab-navigation-top-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-corners.gif), sides:url(images/tab/tab-navigation-right-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-corners.gif), sides:url(images/tab/tab-navigation-left-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-over-corners.gif), sides:url(images/tab/tab-navigation-top-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-over-corners.gif), sides:url(images/tab/tab-navigation-right-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-over-corners.gif), sides:url(images/tab/tab-navigation-left-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-active-corners.gif), sides:url(images/tab/tab-navigation-top-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-active-corners.gif), sides:url(images/tab/tab-navigation-right-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-active-corners.gif), sides:url(images/tab/tab-navigation-left-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-over-corners.gif), sides:url(images/tab/tab-navigation-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-over-corners.gif), sides:url(images/tab/tab-navigation-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-over-corners.gif), sides:url(images/tab/tab-navigation-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-active-corners.gif), sides:url(images/tab/tab-navigation-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-active-corners.gif), sides:url(images/tab/tab-navigation-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-active-corners.gif), sides:url(images/tab/tab-navigation-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-disabled-corners.gif), sides:url(images/tab/tab-navigation-top-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-top-disabled-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-disabled-corners.gif), sides:url(images/tab/tab-navigation-right-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-right-disabled-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-disabled-corners.gif), sides:url(images/tab/tab-navigation-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-disabled-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-disabled-corners.gif), sides:url(images/tab/tab-navigation-left-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-left-disabled-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/tab/Bar.scss:389 */
 .x-tab-bar-navigation {
     background-color: #404040;
@@ -14544,30 +13613,6 @@ div.x-border-layout-ct {
 .x-box-scroller-tab-bar-navigation .x-ie8 .x-box-scroller-plain {
     background-color: #fff;
 }
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
-}
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:799 */
 .x-panel-navigation {
     border-color: #5fa2dd;
@@ -14749,30 +13794,6 @@ div.x-border-layout-ct {
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1300 */
 .x-panel .x-panel-header-navigation-collapsed-border-left {
     border-right-width: 1px !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* /home/bojan/dev/sencha/MyApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
 }
 /* /home/bojan/dev/sencha/MyApp/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1336 */
 .x-panel-header-navigation-horizontal .x-tool-after-title {
