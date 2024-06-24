@@ -12,7 +12,7 @@ Ext.define('MyApp.view.main.Products', {
     reference: 'productsView',
     title: 'Products',
     store: {
-        type: 'productsplain',
+        type: 'products',
     },
     columns: [
         { text: 'Brand', dataIndex: 'brand', flex: 1, filter: { type: 'string'}},
